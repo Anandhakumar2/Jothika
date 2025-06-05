@@ -1,0 +1,89 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#home{
+    background-image: url(/task/cinema\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+
+#ci{
+   height: 550px;
+   width: 1400px;
+}
+.btn{
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px;
+    color: blue;
+    top: 50px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.seat {
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seat.selected {
+    background-color: skyblue;
+}
+.seat.occupied {
+    background-color: wheat;
+    cursor: not-allowed;
+}
+.toggle{
+    height: 50px;
+    width: 200px;
+    margin-left: 500px;
+    border: none;
+    background-color: green;
+   }
+
+
+   .cfm{
+    height: 50px;
+    width: 200px;
+    background-color: wheat;
+    border: 2px solid wheat;
+    display: none;
+   }
+   #container-fluid{
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin-top: 300px;
+}
+
+
